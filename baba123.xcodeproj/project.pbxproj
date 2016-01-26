@@ -571,6 +571,7 @@
 				TargetAttributes = {
 					E70A49C51C27E5B800AEAB02 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8UYL3AY4GC;
 					};
 					E70A49DE1C27E5B800AEAB02 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -809,6 +810,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 金龙 柴 (863T787JMD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/baba123/ShareSDK/Connection",
@@ -829,7 +831,7 @@
 					"$(PROJECT_DIR)/baba123/XinGe",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kunpo.baba12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kunpo.dad1;
 				PRODUCT_NAME = baba123;
 			};
 			name = Debug;
@@ -838,7 +840,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hunan Happy Mango Technology Co.,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hunan Happy Mango Technology Co.,Ltd.";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -860,7 +862,7 @@
 					"$(PROJECT_DIR)/baba123/XinGe",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kunpo.baba12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kunpo.dad1;
 				PRODUCT_NAME = baba123;
 			};
 			name = Release;
